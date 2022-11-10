@@ -1,11 +1,12 @@
 {
-    "name": "Covid-19 Stats UK",
+    "name": "Lightweight Unit Converter",
     "version": "1.0.0",
-    "description": "latest covid data of UK",
-    "manifest_version": 3,
-    "author": "Sampurna Chapagain",
+    "description": "mobile-first browser extension to convert units",
+    "manifest_version": 1,
+    "author": "Elikem Asudo Gale-Zoyiku",
+    "contact": "egalezoyiku@gmail.com",
     "action":{
         "default_popup": "index.html",
-        "default_title": "Latest Covid Report"
+        "default_title": "Unit Converter"
     }
 }

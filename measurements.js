@@ -501,4 +501,3 @@ var conversionObject = {
         }
     }
 }
-console.log(converter("Temperature", "Celsius", "Kelvin", 100));
