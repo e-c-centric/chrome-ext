@@ -3,10 +3,24 @@
     "version": "1.0.0",
     "description": "mobile-first browser extension to convert units",
     "manifest_version": 3,
-    "author": "Elikem Asudo Gale-Zoyiku",
-    "contact": "egalezoyiku@gmail.com",
-    "action":{
+    "author": "Elikem Asudo Gale-Zoyiku egalezoyiku@gmail.com",
+
+    "action": {
         "default_popup": "index.html",
-        "default_title": "Unit Converter"
-    }
+        "default_title": "Lightweight Unit Converter"
+    },
+
+
+    "permissions": [
+        "storage",
+        "activeTab",
+        "contextMenus",
+        "tabs",
+        "webNavigation",
+        "webRequest"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
 }
