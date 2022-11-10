@@ -2,7 +2,7 @@
     "name": "Lightweight Unit Converter",
     "version": "1.0.0",
     "description": "mobile-first browser extension to convert units",
-    "manifest_version": 1,
+    "manifest_version": 3,
     "author": "Elikem Asudo Gale-Zoyiku",
     "contact": "egalezoyiku@gmail.com",
     "action":{
