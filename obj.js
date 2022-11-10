@@ -140,3 +140,5 @@ var abbrev = {
   "uDegk":"K",
   "uDegn":"°N"
 }
+var button = document.getElementById("mybutton");
+      button.addEventListener("click", darkMode);
